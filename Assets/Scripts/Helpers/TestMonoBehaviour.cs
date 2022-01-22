@@ -1,9 +1,15 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class TestMonoBehaviour : MonoBehaviour
 {
-    private void Awake()
+    public MoveTweenParams moveTweenParams;
+
+    private Tween moveTween;
+
+    private void Start()
     {
-        Debug.Log(GameManager.Instance.name);
+        moveTween = moveTweenParams.GetTween(gameObject).Play();
     }
+
 }

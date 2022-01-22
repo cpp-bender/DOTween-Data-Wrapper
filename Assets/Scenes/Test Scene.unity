@@ -331,6 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f6aae70d8645146b9cee7ac920bb12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveTweenParams: {fileID: 11400000, guid: 28e81cc5fd681bb4998d4afa79634d3e, type: 2}
 --- !u!65 &1191383089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -363,7 +364,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 07326b771e872294f8fed5bcad3a342b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

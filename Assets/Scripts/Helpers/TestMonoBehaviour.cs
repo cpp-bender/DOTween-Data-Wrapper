@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TestMonoBehaviour : MonoBehaviour
 {
-    public MoveTweenParams moveTweenParams;
+    public BaseTweenParams moveTweenParams;
 
     private Tween moveTween;
 
@@ -11,5 +11,4 @@ public class TestMonoBehaviour : MonoBehaviour
     {
         moveTween = moveTweenParams.GetTween(gameObject).Play();
     }
-
 }

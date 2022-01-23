@@ -11,18 +11,30 @@ public abstract class BaseTweenParams : ScriptableObject
     [Space(1f)] public LoopType loopType = LoopType.Yoyo;
     [Space(1f)] public bool autoKill = true;
     [Space(1f)] public bool recyclable = true;
+    [Space(1f)] public bool relative = false;
 
     protected Tween baseTween;
 
+    /// <summary>
+    /// Gets the default tween params
+    /// </summary>
+    /// <returns></returns>
     protected TweenParams GetDefaultTweenParams()
     {
         var tweenParams = new TweenParams()
-            .SetAutoKill(autoKill)
             .SetDelay(startDelay)
-            .SetEase(ease).SetLoops(loopCount, loopType)
-            .SetRecyclable(recyclable);
+            .SetEase(ease)
+            .SetLoops(loopCount, loopType)
+            .SetAutoKill(autoKill)
+            .SetRecyclable(recyclable)
+            .SetRelative(relative);
         return tweenParams;
     }
 
+    /// <summary>
+    /// Gets the tween to the given gameobject
+    /// </summary>
+    /// <param name="go">GameObject</param>
+    /// <returns></returns>
     public abstract Tween GetTween(GameObject go);
 }

@@ -4,17 +4,19 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "DOTween Utilities/Scale Tween Params", fileName = "Scale Tween Params")]
 public class ScaleTweenParams : BaseTweenParams
 {
-    [Header("Scale Tween Params Data")]
-    [SerializeField, Space(5f)] bool isSameScaleValue = true;
+    [Header("Scale Tween Params Data"), Space(2f)]
+    [SerializeField, Space(1f)] bool isSameScaleValue = true;
+    [SerializeField, Space(1f)] private float scaleValue = 1f;
+    [SerializeField, Space(1f)] private Vector3 endValue = Vector3.one;
 
-    [Space(5f)] public float ScaleValue = 1f;
-    [Space(5f)] public Vector3 EndValue = Vector3.one;
+    public float ScaleValue { get => scaleValue; }
+    public Vector3 EndValue { get => endValue; }
 
     private void OnValidate()
     {
         if (isSameScaleValue)
         {
-            EndValue = Vector3.one * ScaleValue;
+            endValue = Vector3.one * ScaleValue;
         }
     }
 

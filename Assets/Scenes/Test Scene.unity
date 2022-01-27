@@ -331,6 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f6aae70d8645146b9cee7ac920bb12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveTweenData: {fileID: 11400000, guid: 28e81cc5fd681bb4998d4afa79634d3e, type: 2}
 --- !u!65 &1191383089
 BoxCollider:
   m_ObjectHideFlags: 0

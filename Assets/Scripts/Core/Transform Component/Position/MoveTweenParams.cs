@@ -4,8 +4,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "DOTween Utilities/Move Tween Params", fileName = "Move Tween Params")]
 public class MoveTweenParams : BaseTweenParams
 {
-    [Header("Move Tween Params Data"), Space(5f)]
-    public Vector3 EndValue = Vector3.zero;
+    [Header("Move Tween Params Data"), Space(2f)]
+    [SerializeField, Space(1f)] Vector3 endValue = Vector3.zero;
+
+    public Vector3 EndValue { get => endValue; }
 
     public override Tween GetTween(GameObject go)
     {

@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06ca87409a1814f44bec8d9757cfcc39, type: 3}
-  m_Name: Scale Tween Params
+  m_Name: 
   m_EditorClassIdentifier: 
-  duration: 1
-  startDelay: 0
-  ease: 6
-  loopCount: 1
-  loopType: 1
-  autoKill: 1
-  recyclable: 1
-  relative: 0
+  Duration: 1
+  StartDelay: 0
+  Ease: 1
+  LoopCount: 1
+  LoopType: 1
+  AutoKill: 1
+  Recyclable: 1
+  Relative: 0
   isSameScaleValue: 1
-  scaleValue: 2
-  endValue: {x: 2, y: 2, z: 2}
+  ScaleValue: 1
+  EndValue: {x: 1, y: 1, z: 1}

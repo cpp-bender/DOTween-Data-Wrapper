@@ -4,14 +4,14 @@ using UnityEngine;
 public abstract class BaseTweenParams : ScriptableObject
 {
     [Header("Default Tween Params Data")]
-    [Space(1f)] public float duration = 1f;
-    [Space(1f)] public float startDelay = 0f;
-    [Space(1f)] public Ease ease = Ease.Linear;
-    [Space(1f)] public int loopCount = 1;
-    [Space(1f)] public LoopType loopType = LoopType.Yoyo;
-    [Space(1f)] public bool autoKill = true;
-    [Space(1f)] public bool recyclable = true;
-    [Space(1f)] public bool relative = false;
+    [Space(1f)] public float Duration = 1f;
+    [Space(1f)] public float StartDelay = 0f;
+    [Space(1f)] public Ease Ease = Ease.Linear;
+    [Space(1f)] public int LoopCount = 1;
+    [Space(1f)] public LoopType LoopType = LoopType.Yoyo;
+    [Space(1f)] public bool AutoKill = true;
+    [Space(1f)] public bool Recyclable = true;
+    [Space(1f)] public bool Relative = false;
 
     protected Tween baseTween;
 
@@ -22,12 +22,12 @@ public abstract class BaseTweenParams : ScriptableObject
     protected TweenParams GetDefaultTweenParams()
     {
         var tweenParams = new TweenParams()
-            .SetDelay(startDelay)
-            .SetEase(ease)
-            .SetLoops(loopCount, loopType)
-            .SetAutoKill(autoKill)
-            .SetRecyclable(recyclable)
-            .SetRelative(relative);
+            .SetDelay(StartDelay)
+            .SetEase(Ease)
+            .SetLoops(LoopCount, LoopType)
+            .SetAutoKill(AutoKill)
+            .SetRecyclable(Recyclable)
+            .SetRelative(Relative);
         return tweenParams;
     }
 

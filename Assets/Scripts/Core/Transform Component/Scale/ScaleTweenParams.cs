@@ -5,22 +5,23 @@ using UnityEngine;
 public class ScaleTweenParams : BaseTweenParams
 {
     [Header("Scale Tween Params Data")]
-    [SerializeField, Space(1f)] bool isSameScaleValue = true;
-    [SerializeField, Space(1f)] float scaleValue = 1f;
-    [SerializeField, Space(1f)] Vector3 endValue = Vector3.one;
+    [SerializeField, Space(5f)] bool isSameScaleValue = true;
+
+    [Space(5f)] public float ScaleValue = 1f;
+    [Space(5f)] public Vector3 EndValue = Vector3.one;
 
     private void OnValidate()
     {
         if (isSameScaleValue)
         {
-            endValue = Vector3.one * scaleValue;
+            EndValue = Vector3.one * ScaleValue;
         }
     }
 
     public override Tween GetTween(GameObject go)
     {
         var tweenParams = GetDefaultTweenParams();
-        baseTween = go.transform.DOScale(endValue, duration).SetAs(tweenParams);
+        baseTween = go.transform.DOScale(EndValue, Duration).SetAs(tweenParams);
         return baseTween;
     }
 }

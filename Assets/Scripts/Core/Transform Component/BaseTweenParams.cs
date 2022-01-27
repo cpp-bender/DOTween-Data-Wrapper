@@ -37,4 +37,9 @@ public abstract class BaseTweenParams : ScriptableObject
     /// <param name="go">GameObject</param>
     /// <returns></returns>
     public abstract Tween GetTween(GameObject go);
+
+    public TweenParams GetTweenParams()
+    {
+        return GetDefaultTweenParams();
+    }
 }

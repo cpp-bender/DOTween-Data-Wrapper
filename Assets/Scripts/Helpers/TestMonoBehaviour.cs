@@ -3,14 +3,12 @@ using UnityEngine;
 
 public class TestMonoBehaviour : MonoBehaviour
 {
-    public MoveTweenData moveTweenData;
-    public BaseTweenData baseTweenData;
+    public BaseTweenData tweenData;
 
-    private Tween moveTween;
-    private Tween baseTween;
+    private Tween tween;
 
     private void Start()
     {
-        baseTween = baseTweenData.GetTween(gameObject).Play();
+        tween = tweenData.GetTween(gameObject).Play();
     }
 }

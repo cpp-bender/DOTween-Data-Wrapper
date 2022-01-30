@@ -3,7 +3,7 @@ using UnityEngine;
 
 public abstract class BaseTweenData : ScriptableObject
 {
-    [Header("Default Tween Params Data"), Space(2f)]
+    [Header("Default Tween Data"), Space(2f)]
     [SerializeField, Space(1f)] float duration = 1f;
     [SerializeField, Space(1f)] float startDelay = 0f;
     [SerializeField, Space(1f)] Ease ease = Ease.Linear;
@@ -23,21 +23,19 @@ public abstract class BaseTweenData : ScriptableObject
     public bool Relative { get => relative; }
 
     protected Tween baseTween;
-
-    /// <summary>
-    /// Returns the default tween params
-    /// </summary>
-    /// <returns></returns>
-    protected TweenParams GetDefaultTweenParams()
+    protected TweenParams baseTweemParams
     {
-        var tweenParams = new TweenParams()
-            .SetDelay(StartDelay)
-            .SetEase(Ease)
-            .SetLoops(LoopCount, loopType)
-            .SetAutoKill(AutoKill)
-            .SetRecyclable(Recyclable)
-            .SetRelative(Relative);
-        return tweenParams;
+        get
+        {
+            var tweenParams = new TweenParams()
+                .SetDelay(StartDelay)
+                .SetEase(Ease)
+                .SetLoops(LoopCount, loopType)
+                .SetAutoKill(AutoKill)
+                .SetRecyclable(Recyclable)
+                .SetRelative(Relative);
+            return tweenParams;
+        }
     }
 
     /// <summary>
@@ -46,13 +44,4 @@ public abstract class BaseTweenData : ScriptableObject
     /// <param name="go">GameObject</param>
     /// <returns></returns>
     public abstract Tween GetTween(GameObject go);
-
-    /// <summary>
-    /// Returns the tween params
-    /// </summary>
-    /// <returns></returns>
-    public TweenParams GetTweenParams()
-    {
-        return GetDefaultTweenParams();
-    }
 }

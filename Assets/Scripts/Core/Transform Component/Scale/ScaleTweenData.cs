@@ -1,8 +1,8 @@
 using DG.Tweening;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "DOTween Utilities/Scale Tween Params", fileName = "Scale Tween Params")]
-public class ScaleTweenParams : BaseTweenParams
+[CreateAssetMenu(menuName = "DOTween Utilities/Scale Tween Data", fileName = "Scale Tween Data")]
+public class ScaleTweenData : BaseTweenData
 {
     [Header("Scale Tween Params Data"), Space(2f)]
     [SerializeField, Space(1f)] bool isSameScaleValue = true;

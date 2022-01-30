@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public abstract class BaseTweenParams : ScriptableObject
+public abstract class BaseTweenData : ScriptableObject
 {
     [Header("Default Tween Params Data"), Space(2f)]
     [SerializeField, Space(1f)] float duration = 1f;

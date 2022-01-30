@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTweenData: {fileID: 11400000, guid: 28e81cc5fd681bb4998d4afa79634d3e, type: 2}
+  baseTweenData: {fileID: 11400000, guid: caf88b1210b77d84ab5963416f79cd56, type: 2}
 --- !u!65 &1191383089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -401,7 +402,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191383087}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -425,7 +426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 300739858626423288, guid: 556ba62da6734a34fbd2ee16769cd18a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 300739858626423288, guid: 556ba62da6734a34fbd2ee16769cd18a, type: 3}
       propertyPath: m_LocalPosition.z

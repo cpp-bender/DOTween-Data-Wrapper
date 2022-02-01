@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9bdcffc0b349f1418d9d217b0544d5d, type: 3}
-  m_Name: 
+  m_Name: Local Rotate Tween Data
   m_EditorClassIdentifier: 
-  duration: 1
+  duration: 0.5
   startDelay: 0
-  ease: 1
-  loopCount: 1
+  ease: 32
+  loopCount: -1
   loopType: 1
   autoKill: 1
   recyclable: 1
   relative: 0
-  endValue: {x: 0, y: 0, z: 0}
+  endValue: {x: 90, y: 0, z: 0}
   rotateMode: 0

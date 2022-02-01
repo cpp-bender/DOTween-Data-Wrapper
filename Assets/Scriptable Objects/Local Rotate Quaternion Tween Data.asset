@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3237805365ca7664a839cad8545e326b, type: 3}
-  m_Name: Local Rotate Quaternion Tween Data
+  m_Name: 
   m_EditorClassIdentifier: 
   duration: 1
   startDelay: 0

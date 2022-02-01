@@ -15,11 +15,11 @@ C:/Users/ahmet/OneDrive/Desktop/Unity/DOTween Wrapper
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50312
+49808
 Successfully changed project path to: C:/Users/ahmet/OneDrive/Desktop/Unity/DOTween Wrapper
 C:/Users/ahmet/OneDrive/Desktop/Unity/DOTween Wrapper
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Users/ahmet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,151 +35,143 @@ Initialize mono
 Mono path[0] = 'C:/Users/ahmet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/ahmet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/ahmet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/ahmet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001592 seconds.
+Registered in 0.001647 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.802 seconds
+- Completed reload, in  1.776 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002506 seconds.
+Registered in 0.002354 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
+- Completed reload, in  0.695 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1591.
-Total: 1.266200 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.079200 ms  DeleteObjects: 0.054700 ms)
+Total: 1.335800 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.092800 ms  DeleteObjects: 0.094700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Core/Transform Component/BaseTweenParams.cs
-  artifactKey: Guid(d24b8fe023851c64c9d8f36a98a25339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Transform Component/BaseTweenParams.cs using Guid(d24b8fe023851c64c9d8f36a98a25339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c25e8da9495d73f38463052303d78') in 0.025405 seconds
-  Import took 0.026974 seconds .
+  path: Assets/Scriptable Objects/Local Move Tween Params.asset
+  artifactKey: Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Move Tween Params.asset using Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27efdef5a259b99bb90d0b305c82a431') in 0.038906 seconds
+  Import took 0.040374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.974596 seconds.
-  path: Assets/Scriptable Objects/Scale Tween Params.asset
-  artifactKey: Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptable Objects/Scale Tween Params.asset using Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704826879f4584a2721fd6faa4d79812') in 0.018443 seconds
-  Import took 0.020202 seconds .
+  Time since last request: 0.338918 seconds.
+  path: Assets/Scriptable Objects/Local Move Tween Params.asset
+  artifactKey: Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Move Tween Params.asset using Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27efdef5a259b99bb90d0b305c82a431') in 0.006223 seconds
+  Import took 0.009473 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002229 seconds.
+Registered in 0.002126 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
+- Completed reload, in  0.644 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.0 MB.
 System memory in use after: 58.0 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1594.
-Total: 1.223900 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.048100 ms  DeleteObjects: 0.038500 ms)
+Total: 1.206200 ms (FindLiveObjects: 0.098300 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.041400 ms  DeleteObjects: 0.034100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002455 seconds.
+Registered in 0.002063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.679 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1597.
-Total: 1.249400 ms (FindLiveObjects: 0.102300 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.071700 ms  DeleteObjects: 0.038000 ms)
+Total: 1.249800 ms (FindLiveObjects: 0.106900 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.074100 ms  DeleteObjects: 0.037800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002528 seconds.
+Registered in 0.002360 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.669 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1600.
-Total: 1.315500 ms (FindLiveObjects: 0.108700 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.126500 ms  DeleteObjects: 0.049100 ms)
+Total: 1.219500 ms (FindLiveObjects: 0.103900 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.049900 ms  DeleteObjects: 0.036000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002232 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.801600 ms (FindLiveObjects: 0.126200 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.588700 ms  DeleteObjects: 0.048200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 883.157621 seconds.
-  path: Assets/Scriptable Objects/Scale Tween Params.asset
-  artifactKey: Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptable Objects/Scale Tween Params.asset using Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52eac4fe0b457685b02769ce0ce4792') in 0.018792 seconds
-  Import took 0.020385 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002517 seconds.
+Registered in 0.002334 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.301900 ms (FindLiveObjects: 0.106400 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.118300 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -188,18 +180,18 @@ System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.271900 ms (FindLiveObjects: 0.101200 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.102000 ms  DeleteObjects: 0.038900 ms)
+Total: 1.258000 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.074000 ms  DeleteObjects: 0.040300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002474 seconds.
+Registered in 0.002187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
+- Completed reload, in  0.657 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -208,38 +200,18 @@ System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.183200 ms (FindLiveObjects: 0.100000 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.017900 ms  DeleteObjects: 0.036400 ms)
+Total: 1.653600 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.415900 ms  DeleteObjects: 0.043000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002425 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.321700 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.047000 ms  DeleteObjects: 0.035200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002342 seconds.
+Registered in 0.002266 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
+- Completed reload, in  0.662 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -247,39 +219,759 @@ Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.0 MB.
 System memory in use after: 58.1 MB.
 
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 1.368700 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.143300 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 58.1 MB.
+
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.255300 ms (FindLiveObjects: 0.115200 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.067600 ms  DeleteObjects: 0.039400 ms)
+Total: 1.276200 ms (FindLiveObjects: 0.113300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.092800 ms  DeleteObjects: 0.036900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.598600 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.378000 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.242600 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.065300 ms  DeleteObjects: 0.036500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.396800 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.211200 ms  DeleteObjects: 0.043900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 1.473500 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.278400 ms  DeleteObjects: 0.039100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.332500 ms (FindLiveObjects: 0.116600 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.149200 ms  DeleteObjects: 0.036700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 753.391391 seconds.
-  path: Assets/Scriptable Objects/Scale Tween Params.asset
-  artifactKey: Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptable Objects/Scale Tween Params.asset using Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5097f82d990882ad7b61c1bfdda58359') in 0.012103 seconds
-  Import took 0.013732 seconds .
+  Time since last request: 1346.193249 seconds.
+  path: Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs
+  artifactKey: Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs using Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0861c7e89d6562a33cc78fcf91307ad') in 0.013063 seconds
+  Import took 0.014800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.199075 seconds.
-  path: Assets/Scriptable Objects/Local Move Tween Params.asset
-  artifactKey: Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptable Objects/Local Move Tween Params.asset using Guid(f68ee826b93368e419ad56a3189172a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b340cede0dab37a01c43fd766e6c9e24') in 0.007204 seconds
-  Import took 0.009075 seconds .
+  Time since last request: 0.000892 seconds.
+  path: Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs
+  artifactKey: Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs using Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0861c7e89d6562a33cc78fcf91307ad') in 0.002790 seconds
+  Import took 0.004727 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.466646 seconds.
-  path: Assets/Scripts/Core/Transform Component/Position/MoveTweenParams.cs
+  Time since last request: 0.505204 seconds.
+  path: Assets/Scripts/Core/Transform Component/Position/MoveTweenData.cs
   artifactKey: Guid(3d909d0047291f640893eed523505edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Transform Component/Position/MoveTweenParams.cs using Guid(3d909d0047291f640893eed523505edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f6c0cb831300e5e4481bceeb404895') in 0.006018 seconds
-  Import took 0.007699 seconds .
+Start importing Assets/Scripts/Core/Transform Component/Position/MoveTweenData.cs using Guid(3d909d0047291f640893eed523505edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc77e8faa1ac6968ff8fe0edbb09169d') in 0.008329 seconds
+  Import took 0.010298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.455435 seconds.
+  Time since last request: 13.525849 seconds.
+  path: Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs
+  artifactKey: Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs using Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8ffba1117442552f7330cc27c3f144') in 0.006161 seconds
+  Import took 0.008153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.521900 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.283100 ms  DeleteObjects: 0.085900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 1.323300 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.122100 ms  DeleteObjects: 0.040400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 786.430052 seconds.
+  path: Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs
+  artifactKey: Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs using Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c681779d3827a066dca6825c8483d3') in 0.006585 seconds
+  Import took 0.008103 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 1.311500 ms (FindLiveObjects: 0.109700 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.130500 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.153398 seconds.
+  path: Assets/Scriptable Objects/Rotate Tween Data.asset
+  artifactKey: Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Tween Data.asset using Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b4a0ec491c8fa64b7d9a21b7eff4c0') in 0.024394 seconds
+  Import took 0.026053 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 1.332600 ms (FindLiveObjects: 0.118300 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.129700 ms  DeleteObjects: 0.053600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.286600 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.109900 ms  DeleteObjects: 0.035800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.841806 seconds.
+  path: Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs
+  artifactKey: Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs using Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3c50e570eb3a71a20afa08542ada2d') in 0.003955 seconds
+  Import took 0.005950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs
+  artifactKey: Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Position/LocalMoveTweenData.cs using Guid(b12dd792017a0c34bbdbcc60c8af18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3c50e570eb3a71a20afa08542ada2d') in 0.001936 seconds
+  Import took 0.003651 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.321300 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.135100 ms  DeleteObjects: 0.037300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.313974 seconds.
+  path: Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs
+  artifactKey: Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Rotation/RotateTweenData.cs using Guid(71b5cb3f1b8b83142a704cdb1bb3deef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0999913f6b7369ffce7334ba045f142a') in 0.006449 seconds
+  Import took 0.008284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 1.406200 ms (FindLiveObjects: 0.115400 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.223300 ms  DeleteObjects: 0.036500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.088313 seconds.
+  path: Assets/Scripts/Core/Transform Component/Scale/ScaleTweenData.cs
+  artifactKey: Guid(06ca87409a1814f44bec8d9757cfcc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/Scale/ScaleTweenData.cs using Guid(06ca87409a1814f44bec8d9757cfcc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f829ba7b454e5fa3b9237ca32ab62') in 0.008360 seconds
+  Import took 0.010368 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002885 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 2.249800 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.629700 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.355679 seconds.
+  path: Assets/Scriptable Objects/Rotate Tween Data.asset
+  artifactKey: Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Tween Data.asset using Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f178b448147ebe0f0735b17253a31c9c') in 0.012821 seconds
+  Import took 0.014499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.434647 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs
+  artifactKey: Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs using Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d1c5c77b28918a84d084a7d454fbf4') in 0.006463 seconds
+  Import took 0.008119 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 1.471800 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.245400 ms  DeleteObjects: 0.041600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.300600 ms (FindLiveObjects: 0.105100 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.125600 ms  DeleteObjects: 0.038800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.209899 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs
+  artifactKey: Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs using Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e633a15ca9eab5d607d3c21c2672f0') in 0.003281 seconds
+  Import took 0.004687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.026906 seconds.
+  path: Assets/Scriptable Objects/Local Rotate Tween Data.asset
+  artifactKey: Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Rotate Tween Data.asset using Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41083630245ecdcd647425f6f307a32') in 0.014990 seconds
+  Import took 0.016679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002383 seconds.
+  path: Assets/Scriptable Objects/Local Rotate Tween Data.asset
+  artifactKey: Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Rotate Tween Data.asset using Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41083630245ecdcd647425f6f307a32') in 0.003331 seconds
+  Import took 0.005177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.137284 seconds.
+  path: Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs
+  artifactKey: Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs using Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b03737f8054bd7b9d62d8ce88374b3a') in 0.007507 seconds
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 1.295300 ms (FindLiveObjects: 0.108600 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.117300 ms  DeleteObjects: 0.038700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 1.299300 ms (FindLiveObjects: 0.103100 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.126300 ms  DeleteObjects: 0.039100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.620474 seconds.
+  path: Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs
+  artifactKey: Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs using Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df9a9f161d613540691f918fa6fe3cb') in 0.003538 seconds
+  Import took 0.004886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.248952 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateQuaternion.cs
+  artifactKey: Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateQuaternion.cs using Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229fa77ed6f846d961d6fca9ce6f638f') in 0.007036 seconds
+  Import took 0.008883 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 1.279500 ms (FindLiveObjects: 0.104700 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.106100 ms  DeleteObjects: 0.037300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 1.540600 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.317500 ms  DeleteObjects: 0.076400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.300059 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateQuaternion.cs
+  artifactKey: Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateQuaternion.cs using Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfb0bb013eec0b2c8c5960dfda3b547') in 0.003699 seconds
+  Import took 0.005020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.535005 seconds.
+  path: Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset
+  artifactKey: Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset using Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a2ec48138d7d088653d95be46b337') in 0.011103 seconds
+  Import took 0.012722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004860 seconds.
+  path: Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset
+  artifactKey: Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset using Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a2ec48138d7d088653d95be46b337') in 0.003524 seconds
+  Import took 0.005399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.685838 seconds.
+  path: Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs
+  artifactKey: Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/RotateQuaternionData.cs using Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091fee178aad801596c09670f359eaa8') in 0.003478 seconds
+  Import took 0.005029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.689093 seconds.
+  path: Assets/Scripts/Core/Transform Component/RotateQuaternionTweenData.cs
+  artifactKey: Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/RotateQuaternionTweenData.cs using Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27c61ea4b778d879f152c7542b4d59b') in 0.006501 seconds
+  Import took 0.008504 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1679.
+Total: 1.268100 ms (FindLiveObjects: 0.109800 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.089100 ms  DeleteObjects: 0.037100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.955505 seconds.
+  path: Assets/Scripts/Core/Transform Component/RotateQuaternionTweenData.cs
+  artifactKey: Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/RotateQuaternionTweenData.cs using Guid(c8295d1b304af0a4d9e369bc0bd115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030ff245af3416908e521e4137408f5') in 0.003216 seconds
+  Import took 0.004709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs
+  artifactKey: Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateTweenData.cs using Guid(f9bdcffc0b349f1418d9d217b0544d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2efa0685c5a01b73b694b56ae71ef') in 0.002082 seconds
+  Import took 0.003616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.105493 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateQuaternionTweenData.cs
+  artifactKey: Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateQuaternionTweenData.cs using Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c7c11aa6338c80e64fdbc3acac24fb') in 0.006596 seconds
+  Import took 0.009081 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 1.245900 ms (FindLiveObjects: 0.110400 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.067000 ms  DeleteObjects: 0.038300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 1.276200 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.095300 ms  DeleteObjects: 0.038400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.650040 seconds.
+  path: Assets/Scripts/Core/Transform Component/LocalRotateQuaternionTweenData.cs
+  artifactKey: Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Transform Component/LocalRotateQuaternionTweenData.cs using Guid(3237805365ca7664a839cad8545e326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1629c26243a0f985ab062d14e05a0a7') in 0.003359 seconds
+  Import took 0.004838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.009883 seconds.
   path: Assets/Scriptable Objects/Move Tween Params.asset
   artifactKey: Guid(28e81cc5fd681bb4998d4afa79634d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scriptable Objects/Move Tween Params.asset using Guid(28e81cc5fd681bb4998d4afa79634d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb386e825057b95449ddb1812718820') in 0.009517 seconds
-  Import took 0.011706 seconds .
+Start importing Assets/Scriptable Objects/Move Tween Params.asset using Guid(28e81cc5fd681bb4998d4afa79634d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dc593a7af8da43556eb7ce41f7b777') in 0.017319 seconds
+  Import took 0.019184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.184304 seconds.
+  path: Assets/Scriptable Objects/Rotate Tween Data.asset
+  artifactKey: Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Tween Data.asset using Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cb8ac280d282c4c4c698ef8956d84b') in 0.007573 seconds
+  Import took 0.009201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.835825 seconds.
+  path: Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset
+  artifactKey: Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Quaternion Tween Data.asset using Guid(55f6a9ecd0c27e247bd7e87cd304fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8a976d38952375bdfee1c08ea335b6') in 0.004899 seconds
+  Import took 0.006766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.773143 seconds.
+  path: Assets/Scriptable Objects/Local Rotate Quaternion Tween Data.asset
+  artifactKey: Guid(0672ce2e4dda215499201bb523308251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Rotate Quaternion Tween Data.asset using Guid(0672ce2e4dda215499201bb523308251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c838e018e87512837fb7acccaebb1299') in 0.007938 seconds
+  Import took 0.010071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.749802 seconds.
+  path: Assets/Scriptable Objects/Local Rotate Tween Data.asset
+  artifactKey: Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Local Rotate Tween Data.asset using Guid(ea1f5fa5ad3a5574b8d1153dcce46f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878ac341ebbd82ae99b0e3156ab7bfc8') in 0.004231 seconds
+  Import took 0.005834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.012324 seconds.
+  path: Assets/Scriptable Objects/Rotate Tween Data.asset
+  artifactKey: Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Rotate Tween Data.asset using Guid(1654fa3b2f350834f8898d62ecdcf4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780547b7465e2d7eb14c397a0cb8f9c1') in 0.003052 seconds
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797859 seconds.
+  path: Assets/Scriptable Objects/Scale Tween Params.asset
+  artifactKey: Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Scale Tween Params.asset using Guid(caf88b1210b77d84ab5963416f79cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cef1cdd52805fc3b092f41e7a4706') in 0.010022 seconds
+  Import took 0.012065 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 1.310400 ms (FindLiveObjects: 0.113600 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.123300 ms  DeleteObjects: 0.041900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06ca87409a1814f44bec8d9757cfcc39, type: 3}
-  m_Name: 
+  m_Name: Scale Tween Params
   m_EditorClassIdentifier: 
   duration: 0.5
   startDelay: 0

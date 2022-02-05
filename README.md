@@ -7,14 +7,15 @@
 
   - [Introduction](#introduction)
   - [Normal DOTween Usage](#normal-dotween-usage)
-  - [DOTween Data Wrapper Usage](#ddw-dotween-usage) 
+  - [DOTween Data Wrapper Usage 1](#ddw-dotween-usage)
+  - [DOTween Data Wrapper Usage 2](#ddw-other-dotween-usage)
   - [Components](#components)
     - [Transform](#transform)
     
 </details>
 
 ## Introduction
-A component-based DOTween data wrapper (DDW), built specifically to make life easier for developers. It's still under development. 
+A component-based DOTween data wrapper (DDW), built specifically to make life easier for developers.
 
     
 ## Normal DOTween Usage
@@ -38,7 +39,7 @@ A component-based DOTween data wrapper (DDW), built specifically to make life ea
         }
     }
 ```
- The example above shows how to do tweening using one of the DOTween's functions. Although, DOTween is a great tweening library. I believe I can make it much more 
+ - The example above shows how to do tweening using one of the DOTween's functions. However, DOTween is a great tweening library. I believe I can make it much more 
  easier for the developers.
  
  ## DDW DOTween Usage
@@ -95,15 +96,20 @@ Note the following
 }
 ```
 If you don't feel confident with the gameObject you have to pass in, you might want to use DDW as shown above. Note that, In order to use DDW like that, you need a
-"XXXTwenData" object (in this case, it's MoveTweenData) not a BaseTweenData. You also make sure that you will not change the Tween Data in the editor with a different
-TweenData anymore such as ScaleTweenData,RotateTweenData, etc.
+"XXXTwenData" object (in this case, it's MoveTweenData) not a BaseTweenData. You also make sure that you no longer will change the tween data in the editor with a different
+tween data anymore such as ScaleTweenData,RotateTweenData, etc.
 
 
 ## Components
-Supports the following components.
+
+Supports the following components
+
 - Transform
+- Mesh Renderer (In Progress)
 
 ### Transform
+Supports the following DOTween's functions
+
 1 - Move Tween
   - DOMove
   - DOMoveX/DOMoveY/DOMoveZ
@@ -118,4 +124,3 @@ Supports the following components.
 3 - Scale Tween
    - DOScale
    - DOScaleX/DOScaleY/DOScaleZ
-    

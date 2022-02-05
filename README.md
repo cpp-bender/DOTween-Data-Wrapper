@@ -1,5 +1,7 @@
 # DOTween-Data-Wrapper
 
+
+
 ## Table Of Contents 
  
 <details>
@@ -10,7 +12,8 @@
   - [DOTween Data Wrapper Usage 1](#ddw-dotween-usage)
   - [DOTween Data Wrapper Usage 2](#ddw-other-dotween-usage)
   - [Components](#components)
-    - [Transform](#transform)
+     - [Transform](#transform)
+  - [Examples](#examples)
     
 </details>
 
@@ -99,7 +102,6 @@ If you don't feel confident with the gameObject you have to pass in, you might w
 "XXXTwenData" object (in this case, it's MoveTweenData) not a BaseTweenData. You also make sure that you no longer will change the tween data in the editor with a different
 tween data anymore such as ScaleTweenData,RotateTweenData, etc.
 
-
 ## Components
 
 Supports the following components
@@ -124,3 +126,15 @@ Supports the following DOTween's functions
 3 - Scale Tween
    - DOScale
    - DOScaleX/DOScaleY/DOScaleZ
+
+## Examples
+
+## Example 1
+
+https://user-images.githubusercontent.com/59537269/152651000-75c808cc-7fac-424c-bc0f-a170fa732d9f.mp4
+
+## Example 2
+
+https://user-images.githubusercontent.com/59537269/152651221-dc2a996a-721b-43d8-baeb-7a3ce902b712.mp4
+
+

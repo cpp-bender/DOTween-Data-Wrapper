@@ -68,7 +68,8 @@ A component-based DOTween data wrapper (DDW), built specifically to make life ea
  - With the DDW (DOTween Data Wrapper), you don't need to know your tween type (MoveTween, RotateTween, ScaleTween, etc.). You just need a "BaseTweenData" object to get the data you need in order to do tweening. At this moment, you migth ask a question "How in the earth would it know what tween type I want it to tween?". It is simple indeed. 
 You tell it how to tween in the editor like below.
 
-<img src = "Assets/Images/example_1.png" >
+![example_1](https://user-images.githubusercontent.com/59537269/152677699-fc490ab6-9728-4252-a256-19440d8e329e.png)
+
 
 Note the following
  - In order to use GetTween function, you need to pass in a gameObject. There is also a way where you don't need to pass in any argument.

@@ -42,7 +42,7 @@ A component-based DOTween data wrapper (DDW), built specifically to make life ea
         }
     }
 ```
- - The example above shows how to do tweening using one of the DOTween's functions. However, DOTween is a great tweening library. I believe I can make it much more 
+ - The example above shows how to do tweening using one of the DOTween's functions. Even though DOTween is a great tweening library, I believe I can make it much more 
  easier for the developers.
  
  ## DDW DOTween Usage
@@ -115,6 +115,7 @@ Supports the following DOTween's functions
 1 - Move Tween
   - DOMove
   - DOMoveX/DOMoveY/DOMoveZ
+  - DOLocalMove
   - DOLocalMoveX/DOLocalMoveY/DOLocalMoveZ
 
 2 -  Rotate Tween

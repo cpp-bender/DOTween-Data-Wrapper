@@ -13,6 +13,7 @@
   - [DOTween Data Wrapper Usage 2](#ddw-other-dotween-usage)
   - [Components](#components)
      - [Transform](#transform)
+     - [Mesh Renderer](#mesh-renderer)
   - [Examples](#examples)
     
 </details>
@@ -108,10 +109,9 @@ tween data anymore such as ScaleTweenData,RotateTweenData, etc.
 Supports the following components
 
 - Transform
-- Mesh Renderer (In Progress)
-
+- Mesh Renderer
+- 
 ### Transform
-Supports the following DOTween's functions
 
 1 - Move Tween
   - DOMove
@@ -128,6 +128,10 @@ Supports the following DOTween's functions
 3 - Scale Tween
    - DOScale
    - DOScaleX/DOScaleY/DOScaleZ
+
+### Mesh Renderer
+ 1 - Material
+   - DOColor
 
 ## Examples
 

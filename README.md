@@ -144,4 +144,8 @@ https://user-images.githubusercontent.com/59537269/152651000-75c808cc-7fac-424c-
 
 https://user-images.githubusercontent.com/59537269/152651221-dc2a996a-721b-43d8-baeb-7a3ce902b712.mp4
 
+## Final Words
+ - Big thanks to 
+ <a href="https://twitter.com/demigiant?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> Daniele Giardini </a> who made this awesome Tweening library
+
 
